@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en"  >
+    
+    <head>
+        <title>
+            Steve Hensley - Home
+        </title>
+        
+        <link href="styles/layoutf407.css?1401664189" rel="stylesheet" type="text/css"/>
+        <link href="styles/mainf407.css?1401664189" rel="stylesheet" type="text/css"/>
+        <link href="styles/fontf407.css?1401664189" rel="stylesheet" type="text/css"/>
+        <link href="styles/webccd9.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body class="body diyBgActive  startpage cc-pagemode-default" data-pageid="368002" id="page-368002">
+        <div class="diyw">
+            <div id="diywebWrapper">
+                <div id="diywebInnerWrapper">
+                    <div id="diywebHeader" class="center">
+
+                        <div id="emotion-header" data-action="loadView" data-params="active" data-imagescount="1">
+                            <img src="images/steveSky.jpg" id="emotion-header-img" alt=""/>
+
+<!--
+                            <div id="ehSlideshowPlaceholder">
+                                <div id="ehSlideShow">
+                                    <div class="slide-container">
+                                        <div style="background-color: #EEEEEE">
+                                            <img src="images/steveSky.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+-->
+
+<!--
+                            <script type="text/javascript">
+                                diy.module.emotionHeader.slideShow.init({
+                                    slides: [{
+                                        "url":"https:\/\/www.stevehensleycomedy.com\/s\/img\/emotionheader.jpg?1425836481.908px.306px",
+                                        "image_alt":"",
+                                        "bgColor":"#EEEEEE"
+                                    }]
+                                });
+                            </script>
+-->
+
+                            <a href="index.html">
+                                <img id="emotion-header-logo" src="images/logo.png" alt=""/>
+                            </a>
+
+<!--                            <strong id="emotion-header-title" style="text-align: center"></strong>-->
+
+<!--
+                            <div class="notranslate">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="emotion-header-title-svg" viewBox="0 0 908 306" preserveAspectRatio="xMinYMin meet">
+                                    <text style="font-family:Arial, Helvetica, sans-serif;font-size:24px;font-style:normal;font-weight:normal;fill:#000000;line-height:1.2em;">
+                                        <tspan x="50%" style="text-anchor: middle" dy="0.95em"> </tspan>
+                                    </text>
+                                </svg>
+                            </div>
+-->
+
+<!--
+                            <script type="text/javascript">
+                                (function ($) {
+                                    function enableSvgTitle() {
+                                        var titleSvg = $('svg#emotion-header-title-svg'),
+                                            titleHtml = $('#emotion-header-title'),
+                                            emoWidthAbs = 908,emoHeightAbs = 306,offsetParent,
+                                            titlePosition,svgBoxWidth,svgBoxHeight;
+                                        if (titleSvg.length && titleHtml.length) {
+                                            offsetParent = titleHtml.offsetParent();
+                                            titlePosition = titleHtml.position();
+                                            svgBoxWidth = titleHtml.width();
+                                            svgBoxHeight = titleHtml.height();
+
+                                            titleSvg.get(0).setAttribute('viewBox', '0 0 ' + svgBoxWidth + ' ' + svgBoxHeight);
+
+                                            titleSvg.css({
+                                                left: Math.roundTo(100 * titlePosition.left / offsetParent.width(), 3) + '%',
+                                                top: Math.roundTo(100 * titlePosition.top / offsetParent.height(), 3) + '%',
+                                                width: Math.roundTo(100 * svgBoxWidth / emoWidthAbs, 3) + '%',
+                                                height: Math.roundTo(100 * svgBoxHeight / emoHeightAbs, 3) + '%'
+                                            });
+
+                                            titleHtml.css('visibility','hidden');
+                                            titleSvg.css('visibility','visible');
+                                        }
+                                    }
+                                    var posFunc = function($, overrideSize) {
+                                        var elems = [], containerWidth, containerHeight;
+                                        elems.push({
+                                            selector: '#emotion-header-title',
+                                            overrideSize: true,
+                                            horPos: 4,
+                                            vertPos: 69
+                                        });
+                                        lastTitleWidth = $('#emotion-header-title').width();
+                                        elems.push({
+                                            selector: '#emotion-header-title-bg',
+                                            horPos: 0,
+                                            vertPos: 23
+                                        });
+                                        containerWidth = parseInt('908');
+                                        containerHeight = parseInt('306');
+                                        for (var i = 0; i < elems.length; ++i) {
+                                            var el = elems[i],
+                                                $el = $(el.selector),
+                                                pos = {
+                                                    left: el.horPos,
+                                                    top: el.vertPos
+                                                };
+                                            if (!$el.length) continue;
+                                            var anchorPos = $el.anchorPosition();
+                                            anchorPos.$container = $('#emotion-header');
+                                            if (overrideSize === true || el.overrideSize === true) {
+                                                anchorPos.setContainerSize(containerWidth, containerHeight);
+                                            } else {
+                                                anchorPos.setContainerSize(null, null);
+                                            }
+                                            var pxPos = anchorPos.fromAnchorPosition(pos),
+                                                pcPos = anchorPos.toPercentPosition(pxPos);
+                                            var elPos = {};
+                                            if (!isNaN(parseFloat(pcPos.top)) && isFinite(pcPos.top)) {
+                                                elPos.top = pcPos.top + '%';
+                                            }
+                                            if (!isNaN(parseFloat(pcPos.left)) && isFinite(pcPos.left)) {
+                                                elPos.left = pcPos.left + '%';
+                                            }
+                                            $el.css(elPos);
+                                        }
+                                        // switch to svg title
+                                        enableSvgTitle();
+                                    };
+                                    var $emotionImg = jQuery('#emotion-header-img');
+                                    if ($emotionImg.length > 0) {
+                                        // first position the element based on stored size
+                                        posFunc(jQuery, true);
+                                        // trigger reposition using the real size when the element is loaded
+                                        var ehLoadEvTriggered = false;
+                                        $emotionImg.one('load', function(){
+                                            posFunc(jQuery);
+                                            ehLoadEvTriggered = true;
+                                            diy.module.emotionHeader.slideShow.start();
+                                        }).each(function() {
+                                            if(this.complete || typeof this.complete === 'undefined') {
+                                                jQuery(this).load();
+                                            }
+                                        });
+                                        noLoadTriggeredTimeoutId = setTimeout(function() {
+                                            if (!ehLoadEvTriggered) {
+                                                posFunc(jQuery);
+                                            }
+                                            window.clearTimeout(noLoadTriggeredTimeoutId)
+                                        }, 5000);//after 5 seconds
+                                    } else {
+                                        jQuery(function(){
+                                            posFunc(jQuery);
+                                        });
+                                    }
+                                    if (jQuery.isBrowser && jQuery.isBrowser.ie8) {
+                                        var longTitleRepositionCalls = 0;
+                                        longTitleRepositionInterval = setInterval(function() {
+                                            if (lastTitleWidth > 0 && lastTitleWidth != jQuery('#emotion-header-title').width()) {
+                                                posFunc(jQuery);
+                                            }
+                                            longTitleRepositionCalls++;
+                                            // try this for 5 seconds
+                                            if (longTitleRepositionCalls === 5) {
+                                                window.clearInterval(longTitleRepositionInterval);
+                                            }
+                                        }, 1000);//each 1 second
+                                    }
+                                }(jQuery));
+                            </script>
+-->
+                        </div>
+                    </div>
+
+                    <div id="diywebNavigation">
+                        <div class="webnavigation">
+                            <ul id="mainNav1" class="mainNav1">
+                                <li class="navTopItemGroup_1">
+                                    <a data-page-id="368002" href="index.html" class="current level_1">
+                                        <span>
+                                            Home
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_2">
+                                    <a data-page-id="368279" href="about-steve.html" class="level_1">
+                                        <span>
+                                            About Steve
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_3">
+                                    <a data-page-id="368304" href="steve-in-action.html" class="level_1">
+                                        <span>
+                                            Steve In Action
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_4">
+                                    <a data-page-id="368307" href="upcoming-shows-and-other-news.html" class="level_1">
+                                        <span>
+                                            Upcoming Shows and Other News
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_5">
+                                    <a data-page-id="368305" href="laugh-with-steve.html" class="level_1">
+                                        <span>
+                                            Laugh With Steve
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_6">
+                                    <a data-page-id="368325" href="credentials.html" class="level_1">
+                                        <span>
+                                            Credentials
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_7">
+                                    <a data-page-id="368284" href="reviews.html" class="level_1">
+                                        <span>
+                                            Reviews
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_8">
+                                    <a data-page-id="368306" href="contact-steve.html" class="level_1">
+                                        <span>
+                                            Contact Steve
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_9">
+                                    <a data-page-id="378642" href="links.html" class="level_1">
+                                        <span>
+                                            Links
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="navTopItemGroup_10">
+                                    <a data-page-id="754949" href="featured-artists.html" class="level_1">
+                                        <span>
+                                            Featured Artists
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="clearover"></div>
+
+                    <div id="diywebMainContent">
+                        <div id="diywebSidebar">
+                            <div id="diywebSubNavigation">
+                                <div class="webnavigation"></div>
+                            </div>
+                            <div id="diywebSubContent">
+                                <div id="matrix_448836" class="sortable-matrix" data-matrixId="448836">
+                                    <div class="n module-type-imageSubtitle diyfeLiveArea ">
+                                        <div class="clearover imageSubtitle" id="imageSubtitle-10578115">
+                                            <div class="align-container align-left" style="max-width: 266px">
+                                                <a class="imagewrapper" href="images/profile.jpg" rel="lightbox[10578115]">
+                                                    <img id="image_12068810" src="images/profile.jpg" alt="" style="max-width: 266px; height:auto"/>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <script type="text/javascript">
+                                            jQuery(function($) {
+                                                var $target = $('#imageSubtitle-10578115');
+                                                if ($.fn.swipebox && Modernizr.touch) {
+                                                    $target
+                                                        .find('a[rel*="lightbox"]')
+                                                        .addClass('swipebox')
+                                                        .swipebox();
+                                                } else {
+                                                    $target.tinyLightbox({
+                                                        item: 'a[rel*="lightbox"]',
+                                                        cycle: false,
+                                                        hideNavigation: true
+                                                    });
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="diywebMainContentCenter">
+                        <div id="content_area">
+                            <div id="content_start"></div>
+                            <div id="matrix_448837" class="sortable-matrix" data-matrixId="448837">
+                                <div class="n module-type-header diyfeLiveArea "> 
+                                    <h1>
+                                        <span class="diyfeDecoration">
+                                            Welcome
+                                        </span>
+                                    </h1> 
+                                </div>
+                                <div class="n module-type-hr diyfeLiveArea "> 
+                                    <div style="padding: 0px 0px">
+                                        <div class="hr"></div>
+                                    </div>
+                                </div>
+                                <div class="n module-type-text diyfeLiveArea "> 
+                                    <h3><span style="color:#ffffff">
+                                        Steve Hensley is an actor/comedian, based in Chicago, IL. He has been performing since around the age of six, and has performed in various settings across the United States.  In addition to performing his routines, Steve has taught comedy improv workshops to hundreds of youth of varying skill levels.
+                                        </span>
+                                    </h3>
+                                    <h3> </h3>
+                                    <h3>
+                                        Steve brings a fresh approach to his comedy through unexpected twists that leave the audience wondering what he will come up with next.
+                                    </h3>
+                                    <h3> </h3>
+                                    <h3>
+                                        Steve is a graduate of Graceland University, where he studied Theatre, Film, and Education.
+                                    </h3>
+                                </div>
+                                <div class="n module-type-hr diyfeLiveArea "> 
+                                    <div style="padding: 0px 0px">
+                                        <div class="hr"></div>
+                                    </div>
+                                </div>
+                                <div class="n module-type-text diyfeLiveArea "> 
+                                    <h1>
+                                        "I like to make people laugh who are normally serious"                        -Jimmy Fallon
+                                    </h1> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br clear="all"/>
+                </div>
+            </div>
+
+            
+            <div id="diywebFooterWrap">
+                <div id="diywebFooter">
+                    <div id="diywebFooterCenter" class="center">
+                        <div id="contentfooter">
+                            <div class="leftrow">
+                                <br/>
+                                &copy 
+                                <script>
+                                    var d = new Date();
+                                    var n = d.getFullYear();
+                                    document.write(n)
+                                </script> &nbsp; - &nbsp; Steve Hensley
+                            </div>
+                        
+                            <div class="rightrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
