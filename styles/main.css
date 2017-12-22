@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Maiven;
+    src: url("fonts/MavenProLight-300.otf");
+}
+
+html, body {
+    font-family: Maiven;
+}
+
+
 .diyw div#emotion-header {
     max-width: 908px;
     max-height: 306px;
@@ -23,7 +33,7 @@
     left: 20%;
     top: 20%;
     color: #000000;
-    font: normal normal 24px/120% Arial, Helvetica, sans-serif;
+/*    font: normal normal 24px/120% Helvetica, sans-serif;*/
 }
 .diyw div#emotion-no-bg-container{
     max-height: 306px;

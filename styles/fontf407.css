@@ -1,23 +1,31 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: Maiven;
+    src: url("../fonts/MavenProLight-300.otf");
+}
+
 body .diyw {}
 
 html body .diyw, html .diyw p, html .diyw table, html .diyw td
 {
-	font:normal 13px/150% "Times New Roman", Times, serif;
+	font:normal 13px/150% Maiven;/* "Times New Roman", Times, serif;*/
+    letter-spacing: 2px;
 	color:#ffffff;
 }
 
 html .diyw h1
 {
-	font:bold 20px/140% "Times New Roman", Times, serif;
+	font:bold 20px/140% Maiven; /*"Times New Roman", Times, serif;*/
+    letter-spacing: 2px;
 	color:#fb6e05;
 	
 }
 
 html .diyw h2
 {
-	font:bold 16px/140% "Times New Roman", Times, serif;
+	font:bold 16px/140% Maiven;/* "Times New Roman", Times, serif;*/
+    letter-spacing: 2px;
 	color:#ffffff;
 	
 }
