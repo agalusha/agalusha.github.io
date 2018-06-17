@@ -24,10 +24,10 @@ html, body {
     display: none;
 }
 .diyw img#emotion-header-logo {
-    left: 5%;
-    top: 14%;
+    right: 2%;
+    bottom: 5%;
     background: transparent;
-    width: 25%;
+    width: 8%;
 }
 .diyw div#emotion-header strong#emotion-header-title {
     left: 20%;
