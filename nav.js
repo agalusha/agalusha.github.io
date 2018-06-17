@@ -36,13 +36,13 @@ document.write('\
                     </span>\
                 </a>\
             </li>\
-            <li>\
+            <!--<li>\
                 <a id="Laugh &mdash; Hensley Comedy" href="laugh-with-steve">\
                     <span>\
                         Laugh\
                     </span>\
                 </a>\
-            </li>\
+            </li>-->\
             <li>\
                 <a id="Credentials &mdash; Hensley Comedy" href="credentials">\
                     <span>\

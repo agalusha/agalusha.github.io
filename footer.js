@@ -10,7 +10,7 @@ document.write('\
                         var d = new Date();\
                         var n = d.getFullYear();\
                         document.write(n)\
-                    </script> &nbsp; - &nbsp; Steve Hensley\
+                    </script> &nbsp; &mdash; &nbsp; Steve Hensley\
                 </div>\
 \
                 <div class="rightrow"></div>\
