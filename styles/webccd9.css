@@ -132,7 +132,11 @@ div#contentfooter{
     overflow:hidden
 }* html div#contentfooter,
 * html .diyw
-div#contentfooter{height:1%;overflow:visible}div#contentfooter div.leftrow,
+div#contentfooter{
+    height:1%;
+    overflow:visible
+}
+div#contentfooter div.leftrow,
 .diyw div#contentfooter
 div.leftrow{
 /*    float:left;*/
@@ -141,10 +145,37 @@ div.leftrow{
 }
 div#contentfooter div.rightrow,
 .diyw div#contentfooter
-div.rightrow{float:right;text-align:right;width:42%}span.loggedin{display:none}.loggedout{display:none}.diyw a.switchViewWeb,
+div.rightrow{
+    float:right;
+    text-align:right;
+    width:42%;
+}
+span.loggedin{
+    display:none
+}
+.loggedout{
+    display:none
+}
+.diyw a.switchViewWeb,
 .diyw
-a.switchViewMobile{display:none}div#loginbox{position:absolute;z-index:1000;width:430px;margin-top:15px;margin-left:-5px;padding:5px;border:1px
-solid #CCC;border-width:1px 3px 3px 1px;background:white;text-align:left;font:10px/14px Verdana, Geneva, Arial, Helvetica, sans-serif !important;color:#666 !important}div#loginbox a,
+a.switchViewMobile{
+    display:none
+}
+div#loginbox{
+    position:absolute;
+    z-index:1000;
+    width:430px;
+    margin-top:15px;
+    margin-left:-5px;
+    padding:5px;
+    border:1px solid #CCC;
+    border-width:1px 3px 3px 1px;
+    background:white;
+    text-align:left;
+    font:10px/14px Verdana, Geneva, Arial, Helvetica, sans-serif !important;
+    color:#666 !important
+}
+div#loginbox a,
 div#imprint
 a{
 /*    font:10px/14px Verdana, Geneva, Arial, Helvetica, sans-serif !important;*/

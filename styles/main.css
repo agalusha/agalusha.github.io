@@ -41,3 +41,13 @@ html, body {
 .diyw div#emotion-no-bg-container .emotion-no-bg-height {
     margin-top: 33.70%;
 }
+
+.footIconHolder {
+/*    height: 30px;*/
+    padding-left:25px;
+    padding-right:25px;
+    display: inline;
+}
+.footIcons {
+    height: 30px;
+}
