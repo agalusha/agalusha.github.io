@@ -36,6 +36,7 @@ document.write('\
                         var n = d.getFullYear();\
                         document.write(n)\
                     </script> &nbsp; &mdash; &nbsp; Hensley Comedy\
+                    <br/><br/>\
                 </div>\
 \
                 <div class="rightrow"></div>\
