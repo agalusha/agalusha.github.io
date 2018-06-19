@@ -95,7 +95,13 @@ width:908px;
     background-color:#a5b730;
     color:#ffffff;
 }
-
+/*
+.underlineThing:before {
+    content:'';
+    display:block;
+    height:2px;
+}
+*/
 .underlineThing:after {
     content: '';
     display: block;
