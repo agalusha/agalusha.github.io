@@ -6,6 +6,7 @@ document.write('\
 \
         <a href="/">\
             <img id="emotion-header-logo" src="images/logo.svg" alt=""/>\
+            <img id="emotion-header-logo" class="colorOne" src="images/logo_color.svg" alt=""/>\
         </a>\
 \
     </div>\

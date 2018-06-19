@@ -29,6 +29,27 @@ html, body {
     background: transparent;
     width: 8%;
 }
+
+.colorOne {
+    opacity: 0;
+    
+    -webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+}
+
+.colorOne:hover {
+    opacity: 100;
+    
+    -webkit-transition: opacity 0.3s ease-in-out;
+       -moz-transition: opacity 0.3s ease-in-out;
+        -ms-transition: opacity 0.3s ease-in-out;
+         -o-transition: opacity 0.3s ease-in-out;
+            transition: opacity 0.3s ease-in-out;
+}
+
 .diyw div#emotion-header strong#emotion-header-title {
     left: 20%;
     top: 20%;
