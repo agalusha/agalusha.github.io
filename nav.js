@@ -8,6 +8,11 @@ document.write('\
 <div id="diywebNavigation">\
     <div class="webnavigation">\
         <ul id="mainNav1" class="mainNav1">\
+            <li>\
+                <a href="images/profile.jpg">\
+                    <img id="" src="images/profile.jpg" alt="" style="width:175px;"/>\
+                </a>\
+            </li>\
             <li style="height:61.5px;">\
                 <a id="Hensley Comedy" href="/" style="padding-top:21px; padding-left:23px; padding-right:23px; padding-bottom:1.22em"><!--style has to be here for some reason-->\
                     <span>\
