@@ -18,28 +18,28 @@ document.write('\
                 </a>\
             </li>\
             <li>\
-                <a id="About &mdash; Hensley Comedy" href="about-steve">\
+                <a id="About &mdash; Hensley Comedy" href="about">\
                     <span>\
                         <div class="underlineThing">About</div>\
                     </span>\
                 </a>\
             </li>\
             <li>\
-                <a id="In Action &mdash; Hensley Comedy" href="steve-in-action">\
+                <a id="Vids &mdash; Hensley Comedy" href="vids">\
                     <span>\
-                        <div class="underlineThing">In Action</div>\
+                        <div class="underlineThing">Vids</div>\
                     </span>\
                 </a>\
             </li>\
             <li>\
-                <a id="Upcoming &mdash; Hensley Comedy" href="upcoming-shows-and-other-news">\
+                <a id="Upcoming &mdash; Hensley Comedy" href="upcoming">\
                     <span>\
                         <div class="underlineThing">Upcoming</div>\
                     </span>\
                 </a>\
             </li>\
             <!--<li>\
-                <a id="Laugh &mdash; Hensley Comedy" href="laugh-with-steve">\
+                <a id="Laugh &mdash; Hensley Comedy" href="laugh">\
                     <span>\
                         <div class="underlineThing">Laugh</div>\
                     </span>\
@@ -60,7 +60,7 @@ document.write('\
                 </a>\
             </li>\
             <li>\
-                <a id="Contact &mdash; Hensley Comedy" href="contact-steve">\
+                <a id="Contact &mdash; Hensley Comedy" href="contact">\
                     <span>\
                         <div class="underlineThing">Contact</div>\
                     </span>\
@@ -74,7 +74,7 @@ document.write('\
                 </a>\
             </li>\
             <li>\
-                <a id="Featured &mdash; Hensley Comedy" href="featured-artists">\
+                <a id="Featured &mdash; Hensley Comedy" href="featured">\
                     <span>\
                         <div class="underlineThing">F</div>\
                     </span>\
