@@ -10,7 +10,7 @@ document.write('\
                         </a>\
                     </div>\
                     <div class="footIconHolder">\
-                        <a href="https://www.instagram.com/hensley8/" target="_blank" title="Instagram">\
+                        <a href="https://www.instagram.com/hensleythegr8t/" target="_blank" title="Instagram">\
                             <img class="footIcons" src="images/icons/instCirc.svg" />\
                         </a>\
                     </div>\
